@@ -1,0 +1,88 @@
+:root{
+    --red: rgba(255, 0, 0, 0.9);
+    --yellow: rgba(255, 255, 0, 0.9);
+    --blue: rgba(0, 0, 255, 0.9);
+    --green: rgba(0, 128, 0, 0.9);
+    --black: rgba(0, 0, 0, 0.9);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-box{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.container-box .main-box{
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 2px black;
+}
+.container-box .main-box .first-layer{
+    display: flex;
+}
+.container-box .main-box .first-layer .boxes{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.container-box .main-box .first-layer .boxes .box{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin: 2px;
+    box-shadow: 0 0 1px black;
+}
+.container-box .main-box .first-layer .big-box,
+.container-box .main-box .first-layer .big-box2{
+    width: 290px;
+    height: 290px;
+    background: var(--blue);
+    margin: 1px;
+    border: 1px solid black;
+    box-shadow: 0 0 1px black;
+}
+.container-box .main-box .first-layer .big-box2{
+    background: var(--yellow);
+}
+.container-box .main-box .second-layer{
+    display: flex;
+}
+.container-box .main-box .second-layer .boxes{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+}
+.container-box .main-box .second-layer .boxes .box{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin: 2px;
+    box-shadow: 0 0 1px black;
+}
+.container-box .main-box .second-layer .medium-box{
+    width: 143px;
+    height: 143px;
+    background: var(--black);
+    margin: 1px;
+    box-shadow: 0 0 1px black;
+}
+#red{
+    background: var(--red);
+}
+#green{
+    background: var(--green);
+}
+.yello{
+    background: var(--yellow);
+}
+.red{
+    background: var(--red);
+}
+.green{
+    background: var(--green);
+}
+.blue{
+    background: var(--blue);
+}
