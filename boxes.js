@@ -95,7 +95,8 @@ observer.observe(imgs[5]);*/
 const closeTab = [
     document.querySelector('.main-box'),
     document.querySelector('.check-boxes'),
-    document.querySelector('.btns3')
+    document.querySelector('.btns3'),
+    document.querySelector('.main-box2')
 ]
 // button click event to hide nav tab
 closeTab.forEach(e => {

@@ -186,9 +186,6 @@ body{
     .main-box .box{
         padding-bottom: 2rem;
     }
-    .main-box .box{
-        width: 95%;
-    }
     .main-box .box .img-box{
         width: 100%;
         overflow-x: scroll;
